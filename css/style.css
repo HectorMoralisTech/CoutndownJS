@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    background: url("../img/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+
+    padding: 0px 50px;
+    border-radius: 12px;
+    margin-top: 25px;
+
+    width: 1100px;
+    padding-bottom: 30px;
+
+    margin: auto;
+    margin-top: 60px;
+}
+
+.countdown {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.time-container {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: wheat;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h2 {
+    color: wheat;
+    font-size: 3.4rem;
+}
+
+p {
+    color: wheat;
+}
